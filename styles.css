@@ -1,0 +1,98 @@
+body {
+    color: white;
+}
+
+#sun {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+#mercury {
+    width: 100px;
+    height: 100px;
+    background-color: #B7B8B9;
+    border-radius: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#venus {
+    width: 100px;
+    height: 100px;
+    background-color: #eed053;
+    border-radius: 100%;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+#earth {
+    width: 100px;
+    height: 100px;
+    background-color: #34A56F;
+    border-radius: 100%;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#mars {
+    width: 100px;
+    height: 100px;
+    background-color: #ad6242;
+    border-radius: 100%;
+    margin-left: 550px;
+    margin-top: -200px;
+}
+
+#jupiter {
+    width: 100px;
+    height: 100px;
+    background-color: #bcafb2;
+    border-radius: 100%;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+#saturn {
+    width: 100px;
+    height: 100px;
+    background-color: #ceb8b8;
+    border-radius: 100%;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+
+#uranus {
+    width: 100px;
+    height: 100px;
+    background-color: #ACE5EE;
+    border-radius: 100%;
+    margin-left: 900px;
+}
+
+#neptune {
+    width: 100px;
+    height: 100px;
+    background-color: #4b70dd;
+    border-radius: 100%;
+    margin-left: 1200px
+    ;
+    margin-top: -100px;
+}
+
+div .container {
+    width: 100px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
