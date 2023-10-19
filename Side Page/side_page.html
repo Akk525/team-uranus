@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-image: url(images/space.jpeg); /* Set your background image here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .main-image {
+            width: 400px;
+            height: 300px;
+        }
+
+        .columns {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .column {
+            padding: 20px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+            margin-bottom: 20px; /* Space between columns */
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/Mars.png" alt="Main Image" class="main-image">
+    <div class="columns">
+        <div class="column">
+            <h2>Column 1</h2>
+            <ul>
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <ul>
+                <li>Point 4</li>
+                <li>Point 5</li>
+                <li>Point 6</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
