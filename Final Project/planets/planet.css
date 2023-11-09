@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 9rem;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 6%;
+    font-size: 2rem;
+}
+
+.container h4 {
+    text-align: center;
+}
+
+#facts {
+    width: 70%;
+}
+
+#funfacts {
+    width: 70%;
+}
